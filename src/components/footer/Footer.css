@@ -1,0 +1,73 @@
+.footer {
+    display: flex; 
+}
+
+h1 {
+    width: 240px;
+    text-align: center;
+}
+
+h5 {
+    font-weight: 400;
+}
+
+h1>h5:nth-child(2) {
+    color: rgb(31, 31, 31);
+}
+
+.opt {
+    color: rgb(117, 117, 117);
+}
+
+.Foot {
+    display: flex;
+    width: 99%; 
+    justify-content: space-around;
+    /* border: 2px solid black ; */
+    align-items: flex-start;
+}
+
+.Foot>div {
+    /* border: 2px solid black ;     */
+    padding: 0px 10px;
+}
+
+.fot {
+    margin: 2px 40px;
+}
+
+h3,
+h4,
+h5 {
+    font-weight: 400;
+    font-size: small;
+}
+
+.display {
+    display: flex;
+}
+
+.display>h1 {
+    border: 1px solid black;
+    border-radius: 100%;
+    display: block;
+    align-items: center;
+    width: 50px;
+    height: 50px;
+    margin: 0px 8px;
+    cursor: pointer;
+}
+
+.display>h1:hover {
+    background-color: black;
+    color: white;
+}
+
+.to {
+    gap: 18px;
+}
+
+.to>h4:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}

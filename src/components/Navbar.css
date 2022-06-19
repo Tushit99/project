@@ -1,0 +1,147 @@
+.nav-color {
+  background-color: rgb(45, 45, 56);
+  width: 1250px; 
+  display: grid;
+  /* border: 2px solid rgb(255, 255, 255); */
+  justify-content: center;
+}
+
+.Navbar {
+  background-color: rgb(45, 45, 56);
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 8px 4px;   
+  width: 1100px;
+  margin: 0px;
+  /* border: 2px solid rgb(255, 255, 255); */
+}
+
+.banggood {
+  width: 200px;
+}
+
+.nav-input {
+  /* border: 2px solid white ;     */
+  text-align: left;
+}
+
+.nav-input>input {
+  width: 86%;
+  height: 22px;
+  margin: 0px;
+  outline: 0px;
+  border: 0px;   
+}
+
+.nav-input>button {
+  width: 40px;
+  height: 24px;
+  margin: 0px 0px 0px -3px;
+  outline: 0px;
+  padding-bottom: 3px;
+  border: 0px;
+  background-color: rgb(255, 110, 38);
+  color: white;
+}
+
+h4 {
+  font-weight: 500;
+}
+
+.nav-bar {
+  display: flex;
+  align-items: center;
+  height: 22px;
+  gap: 10px;
+  /* border: 2px solid white ;   */
+}
+
+
+.nav-exta {
+  margin: 0px; 
+  border: 0px; 
+  background-color: rgb(45, 45, 56) ; 
+  color: white; 
+}
+
+.nav-exta>h4 {
+  margin: 0%;
+}
+
+.nav-dis {
+  display: flex;
+  align-items: center;
+  /* border: 2px solid white ;       */
+}
+
+.category {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  border: 2px solid red;
+  width: 200px;
+  height: 20px;
+  padding: 2px 5px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.category:hover {
+  color: rgb(231, 231, 0);
+}
+
+
+.nav2 {
+  color: rgb(255, 255, 255);
+  display: flex;
+  align-items: center;
+}
+
+.yellow:hover {
+  color: rgb(231, 231, 0);
+}
+
+
+.deal {
+  margin: 0px 40px;
+  display: flex;
+  align-items: center;
+  width: 650px;
+  justify-content: space-around;
+  gap: 20px;
+  /* border: 1px solid white;  */
+  height: 20px;
+}
+
+.deal>h4:hover {
+  color: rgb(231, 231, 0);
+}
+
+.deal>h4 {
+  cursor: pointer;
+}
+
+
+
+
+/* ======== hover colour ========= */
+
+.nav-bar>h4:hover {
+  color: rgb(231, 231, 0);
+  cursor: pointer;
+}
+
+.nav-dis:hover{
+  color: rgb(231, 231, 0);
+  cursor: pointer;
+}
+.nav-dis:hover .nav-exta{
+  color: rgb(231, 231, 0);
+  cursor: pointer;
+}
+
+
+
+/* ================================ */
